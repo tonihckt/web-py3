@@ -8,15 +8,26 @@ crear entorno de trabajo con python3
  -> python2 -m virtualenv venv
 
  activar el entorno de trabajo python3
- ->  . venv/bin/activate
+ -> source venv/bin/activate
 
- instalar flask
- -> pip install Flask
-
+############## Manejando paquetes con pip
+ instalar paquetes
+ -> pip install Flask |o| -> pip install Flask requests==1.1.1
+ desintalar paquetes
+ -> pip uninstall Flask
+ actualizar un paquete
+ -> pip install --upgrade Flask
+ muestra la info del paquetes
+ -> pip show Flask
+muestra todos los paquetes instalados en el entorno virtual
+-> pip list
 en el caso que no veas flask en la carpeta lib
 ***-> pip install --upgrade pip
 
-
+te crea un archivo con todas las librerias del entorno virtual
+-> pip freeze > requirements.txt
+*** para instalar las librerias listadas de requirements.txt(opcional)
+****-> pip install -r requirements.txt
 
  ##################
  #####configuraciones
