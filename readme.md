@@ -67,4 +67,11 @@ git remote add origin git@github.com:aquiVaLaRutaQueTengas.git
 git push -u origin master
 ---------------
 
+seguimos con heroku
+creamos proyec en heroku
+-> heroku create nombreProyecto
+sincromizamos heroku con repositorio de github
+-> heroku git:remote nombreProyecto
+subir proyecto a heroku
+-> git push heroku master
 
