@@ -2,7 +2,6 @@
 **** -> pip install virtualenv 
 **** -> pip install --upgrade virtualenv
 
-
 crear entorno de trabajo con python3
  -> python3 -m venv venv
  o
@@ -32,27 +31,40 @@ en el caso que no veas flask en la carpeta lib
 3. CMD + Shift + P -> Format Selection
 
 
-
  ##################
 subir a produccion la web o a un servidor
 ##############
+
 usaremos - registrate ::: https://elements.heroku.com/
 instalar heroku cli
 -> brew tap heroku/brew && brew install heroku
 ::: comandos heroku 
+nos conetamos a heroku por consola
 -> heroku login
+
+
+
+-------------
 preprar entorno de web para servidor 
 1- crear un archivo: requirements.txt ( aqui van las librerias que necesita el proyecto)
 2- crear un archivo: runtime.txt (especificamos la version de python)
 3- crear un archivo: Procfile  (decide que archivo ejecuta al principio)
+    * ver versiones diponibles(https://devcenter.heroku.com/articles/python-support#specifying-a-python-version)
 
 instalar gunicorn ( dependecia que require heroku)
 -> pip install gunicorn
 
 te lista las libreria que has usado en el proyecto y estas se copian a requirements.txt
 -> pip freeze
+---------------
 
+-------------------------------------------------
 *** subir proyecto a github
 git init
 git add .
+git commit -m "web-py3"
+git remote add origin git@github.com:aquiVaLaRutaQueTengas.git
+git push -u origin master
+---------------
+
 
