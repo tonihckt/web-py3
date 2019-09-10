@@ -74,4 +74,6 @@ sincromizamos heroku con repositorio de github
 -> heroku git:remote nombreProyecto
 subir proyecto a heroku
 -> git push heroku master
+abrir proyecto
+-> heroku open
 
