@@ -10,6 +10,15 @@ crear entorno de trabajo con python
  activar el entorno de trabajo python
  -> source venv/bin/activate
 
+######## opcional hacer estas configs de flask
+cambiar Flask al entorno de desarrollo y habilitar el modo de depuración
+ -> export FLASK_APP=index.py export FLASK_ENV=development
+vovemos a activar el entorno de trabajo python
+ -> source venv/bin/activate
+lo lanzamos ejecutando
+ -> flask run |o| -> python -m flask run
+ ######## ---------------------------------------
+
 ############## Manejando paquetes con pip
  instalar paquetes
  -> pip install Flask |o| -> pip install Flask requests==1.1.1
@@ -29,11 +38,7 @@ te crea un archivo con todas las librerias del entorno virtual
 *** para instalar las librerias listadas de requirements.txt(opcional)
 ****-> pip install -r requirements.txt
 
- ##################
- #####configuraciones
- Para cambiar Flask al entorno de desarrollo y habilitar el modo de depuración, configure FLASK_ENV:
--> export FLASK_ENV=development
--> flask run
+
  ##################
 
  *ordenar tabulaciones del codigo 
