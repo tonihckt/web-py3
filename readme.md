@@ -2,12 +2,12 @@
 **** -> pip install virtualenv 
 **** -> pip install --upgrade virtualenv
 
-crear entorno de trabajo con python3
+crear entorno de trabajo con python
  -> python3 -m venv venv
  o
  -> python2 -m virtualenv venv
 
- activar el entorno de trabajo python3
+ activar el entorno de trabajo python
  -> source venv/bin/activate
 
 ############## Manejando paquetes con pip
